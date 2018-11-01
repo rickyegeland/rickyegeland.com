@@ -1,0 +1,90 @@
+
+body {
+  background-color:	#ffffff;
+  font-family:		"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-size:		12pt;
+  margin:		0;
+  padding:		0;
+}
+
+body.video {
+  background-color:	#000000;
+  color:		#cccccc;
+  align:		center;
+  margin:		3em;
+}
+
+div.page {
+  width:		40em;
+  margin:		3em;
+}
+
+div.topbox {
+  height:		20em;
+}
+
+div.mainpic {
+  float:		left;
+}
+
+div.mainpic img {
+  height:		20em;
+}
+
+div.tweetbox {
+  float:		right;
+  width:		14em;
+  height:		20em;
+}
+
+div.tweetbox a.twitter-timeline {
+}
+
+h1 {
+ font-size:		20pt;
+}
+
+h2 {
+  font-size:		16pt;
+}
+
+dl, dt, dd {
+  margin:		0;
+  padding:		0;
+}
+
+dl {
+  margin-left:		1em;
+  overflow:		hidden;
+}
+
+dt {
+  float:		left;
+  clear:		left;
+  width:		15em;
+  padding-bottom:	0.5em;
+  font-weight:		bold;
+  font-variant:		small-caps;
+}
+
+dt:after {
+  content:":";
+}
+
+dd {
+  float:		left;
+  width:		20em;
+  padding-bottom:	0.5em;
+}
+
+.alert {
+  color:		red;
+}
+
+.just {
+ text-align:		justify;
+}
+
+span.contact { unicode-bidi:bidi-override; direction: rtl; }
+span.contact:before { content:"su.dnalege"; }
+span.contact:after  { content:"ykcir"; }
